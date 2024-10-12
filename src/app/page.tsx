@@ -1,3 +1,4 @@
+"use client"
 import Training from "../components/Training"
 import Collaboration from "../components/Collaboration"
 import ButtonGradient from "../assets/svg/ButtonGradient"
