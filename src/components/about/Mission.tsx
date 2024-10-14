@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import missionimg from "../../assets/about.svg"
 
 // Import or define the image correctly, like this:
 // import denefig1 from 'path_to_image/denefig1.jpg'; // or use an actual URL
@@ -19,7 +20,7 @@ const Mission = () => {
         </div>
         <div className="animate-fadeIn p-1 rounded-lg transform hover:scale-105 transition-transform duration-300">
           <Image
-            src="/path_to_image/denefig1.jpg" // Update the image path accordingly
+            src={missionimg} // Update the image path accordingly
             width={500}
             height={500}
             alt="TMP Labs Training Session"

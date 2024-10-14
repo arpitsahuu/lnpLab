@@ -57,7 +57,7 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Training & Plassments",
+    title: "Training & Placement",
     url: "/training",
   },
   {

@@ -6,12 +6,12 @@ import ContactInfo from '@/components/contact/ContactInfo'
 import Location from '@/components/location/Location'
 
 
-const page = () => { 
+const page = () => {
     return (
-        <div className="min-h-screen bg-black text-white pt-12" 
-        style={{
-            backgroundImage: "linear-gradient(to bottom right, rgba(0,0,255,0.1) 0%, transparent 50%), repeating-linear-gradient(to right, transparent, transparent 2px, rgba(255,255,255,0.05) 2px, rgba(255,255,255,0.05) 4px)"
-          }}>
+        <div className="min-h-screen bg-black text-white pt-12"
+            style={{
+                backgroundImage: "linear-gradient(to bottom right, rgba(0,0,255,0.1) 0%, transparent 50%), repeating-linear-gradient(to right, transparent, transparent 2px, rgba(255,255,255,0.05) 2px, rgba(255,255,255,0.05) 4px)"
+            }}>
             <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
                 <div className="px-4 py-6 sm:px-0">
                     <motion.h1
@@ -32,14 +32,17 @@ const page = () => {
                     </motion.p>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        <ContactUsForm/>
+                        <ContactUsForm />
 
-                        <ContactInfo/>
+                        <ContactInfo />
                     </div>
                 </div>
             </main>
+            <div className='sm:mx-16 mx-3 '>
 
-            <Location/>
+                <Location />
+            </div>
+
         </div>
     )
 }

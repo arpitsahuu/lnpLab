@@ -99,13 +99,13 @@ export const InfiniteMovingCards = ({
                             <div className="flex items-center mb-4">
                                 <Image
                                     src={"/avartar.jpg"} // Fixed the typo in the image extension (jpg)
-                                    alt={"arpit"}
+                                    alt={"jhon"}
                                     width={64}
                                     height={64}
                                     className="rounded-full mr-4"
                                 />
                                 <div>
-                                    <h3 className="font-semibold text-lg">Arpit Sahu</h3>
+                                    <h3 className="font-semibold text-lg">Jhon Wick</h3>
                                     <div className=" text-white ">
                                     Software Developer
                                     </div>

@@ -6,7 +6,7 @@ import TagLine from "./Tagline";
 
 export function InfiniteMovingCardsDemo() {
     return (
-        <div className="h-[40rem] rounded-md flex flex-col antialiased  bg-grid-white/[0.03] items-center justify-center relative overflow-hidden px-3">
+        <div className="h-[40rem] rounded-md flex flex-col  items-center justify-center relative overflow-hidden px-3">
             <div
                 className={` max-w-[50rem] mx-auto mb-12 lg:mb-20 md:text-center`}
             >
